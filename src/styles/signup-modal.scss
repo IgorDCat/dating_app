@@ -1,0 +1,99 @@
+@use 'variables' as *;
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  padding: 1rem;
+
+  &__content {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 4rem 2rem;
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    max-height: 560px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  &__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    font-size: 3rem;
+    color: $primary-color;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+  &__form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .modal__content {
+    padding: 2rem 1rem;
+    max-width: 680px
+  }
+}
+
+@media (max-width: 768px) {
+  .modal__content {
+    padding: 2rem 1rem;
+    max-width: 340px
+  }
+}
+
+@media (max-width: 350px) {
+  .modal__content {
+    padding: 2rem 1rem;
+    max-width: 400px
+  }
+
+  .modal__title {
+    font-size: 1.2rem;
+  }
+
+  .modal__form input,
+  .modal__form button {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .modal__close {
+    font-size: 2.4rem;
+  }
+}

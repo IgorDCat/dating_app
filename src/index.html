@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating App</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+<header class="header">
+    <!-- Header content -->
+</header>
+
+<section class="participate">
+    <div class="participate__images">
+        <img src="images/person6.png" alt="Person" class="circle top-left" />
+        <img src="images/person1.png" alt="Person" class="circle top" />
+        <img src="images/person2.png" alt="Person" class="circle top-right" />
+        <img src="images/heart.svg" alt="Heart" class="heart" />
+        <div class="white-circle"></div>
+        <img src="images/person5.png" alt="Person" class="circle bottom-left" />
+        <img src="images/person4.png" alt="Person" class="circle bottom" />
+        <img src="images/person3.png" alt="Person" class="circle bottom-right" />
+    </div>
+
+    <div class="participate__content">
+        <h2>How to<br />Participate</h2>
+        <ul>
+            <li>Subscribe to our News</li>
+            <li>
+                <button class="btn" id="signUpBtn">SIGN UP</button>
+            </li>
+            <li>Check your email inbox</li>
+            <li>Wait till September 22</li>
+        </ul>
+    </div>
+</section>
+
+<div class="modal" id="modal">
+    <div class="modal__content">
+        <button class="modal__close">&times;</button>
+        <h2 class="modal__title">
+            To register, enter the mail to which our news is sent<br />
+            and set your password
+        </h2>
+        <form class="modal__form" id="signupForm">
+            <input class="input" id="email" type="email" placeholder="Example@email.com" required />
+            <div id="emailError" class="error-message"></div>
+
+            <input class="input" id="password" type="password" placeholder="Password" required />
+            <div id="passwordError" class="error-message"></div>
+
+            <button class="btn" type="submit">SUBMIT</button>
+        </form>
+        <div id="thankYouMessage" class="thank-you-message" style="display: none;">-->
+            <h2>Thank You for Registering!</h2>
+            <p>You'll be redirected shortly...</p>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="js/main.min.js" defer></script>
+</body>
+</html>

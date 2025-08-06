@@ -1,0 +1,191 @@
+// Планшеты (до 1024px)
+@media (max-width: 1024px) {
+  .participate {
+    padding: 3rem 1.5rem;
+
+    &__images {
+      width: 500px;
+      height: 500px;
+
+      .circle {
+        width: 120px;
+        height: 120px;
+      }
+
+      .top {
+        width: 200px;
+        height: 200px;
+      }
+
+      .bottom {
+        width: 150px;
+        height: 150px;
+      }
+
+      .bottom-left {
+        width: 170px;
+        height: 170px;
+      }
+
+      .white-circle {
+        width: 250px;
+        height: 250px;
+        top: 27%;
+        left: 27%;
+      }
+
+      .heart {
+        width: 100px;
+        height: 100px;
+        top: 52%;
+        left: 52%;
+      }
+    }
+
+    &__content {
+      h2 {
+        font-size: 4rem;
+      }
+
+      ul {
+        font-size: 2rem;
+
+        li::before {
+          font-size: 2.5rem;
+          left: -3.5rem;
+        }
+      }
+    }
+  }
+
+  .btn {
+    padding: 0.8rem 1rem;
+  }
+}
+
+// Мобильные устройства (до 768px)
+@media (max-width: 768px) {
+  .participate {
+    flex-direction: column;
+    gap: 2rem;
+
+    &__images {
+      width: 320px;
+      height: 320px;
+
+      .circle {
+        width: 70px;
+        height: 70px;
+      }
+
+      .top {
+        width: 120px;
+        height: 120px;
+      }
+
+      .bottom {
+        width: 100px;
+        height: 100px;
+      }
+
+      .bottom-left {
+        width: 110px;
+        height: 110px;
+      }
+
+      .white-circle {
+        width: 180px;
+        height: 180px;
+        top: 25%;
+        left: 25%;
+      }
+
+      .heart {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    &__content {
+      max-width: 100%;
+
+      h2 {
+        font-size: 3rem;
+        letter-spacing: -0.05rem;
+      }
+
+      ul {
+        padding-left: 2rem;
+        font-size: 1.6rem;
+
+        li::before {
+          font-size: 2rem;
+          left: -2rem;
+        }
+
+        &:nth-child(2)::before {
+          top: 0.3rem;
+        }
+      }
+    }
+  }
+}
+
+// Маленькие экраны (до 480px)
+@media (max-width: 480px) {
+  .participate {
+    padding: 2rem 1rem;
+
+    &__images {
+      width: 260px;
+      height: 260px;
+
+      .circle {
+        width: 60px;
+        height: 60px;
+      }
+
+      .top {
+        width: 100px;
+        height: 100px;
+      }
+
+      .bottom {
+        width: 80px;
+        height: 80px;
+      }
+
+      .bottom-left {
+        width: 90px;
+        height: 90px;
+      }
+
+      .white-circle {
+        width: 150px;
+        height: 150px;
+        top: 25%;
+        left: 25%;
+      }
+
+      .heart {
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+    &__content {
+      h2 {
+        font-size: 2.4rem;
+      }
+
+      ul {
+        font-size: 1.4rem;
+
+        li::before {
+          font-size: 1.8rem;
+          left: -1.8rem;
+        }
+      }
+    }
+  }
+}
