@@ -118,6 +118,10 @@
         padding-left: 2rem;
         font-size: 1.6rem;
 
+        li {
+          margin-bottom: 1.5rem;
+        }
+
         li::before {
           font-size: 2rem;
           left: -2rem;
