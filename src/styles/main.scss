@@ -36,7 +36,7 @@
     .bottom-right{ bottom: 12%; right: 15%; }
     .bottom      { bottom: 5%; left: 40%; transform: translateX(-50%); width: 206px; height: 206px;
       z-index: 6; }
-    .bottom-left { bottom: 25%; left: 0%; width: 230px; height: 230px }
+    .bottom-left { bottom: 25%; left: 0; width: 230px; height: 230px }
 
     .heart {
       position: absolute;
@@ -96,7 +96,7 @@
           content: counter(item) ".";
           color: $primary-color;
           position: absolute;
-          top: 0rem;
+          top: 0;
           left: -4rem;
           font-size: 3rem;
           font-weight: 800;

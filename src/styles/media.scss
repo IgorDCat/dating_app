@@ -1,4 +1,4 @@
-// Планшеты (до 1024px)
+// Tablets (up to 1024px)
 @media (max-width: 1024px) {
   .participate {
     padding: 3rem 1.5rem;
@@ -63,7 +63,7 @@
   }
 }
 
-// Мобильные устройства (до 768px)
+// Mobile devices (up to 768px)
 @media (max-width: 768px) {
   .participate {
     flex-direction: column;
@@ -135,7 +135,7 @@
   }
 }
 
-// Маленькие экраны (до 480px)
+// Small screens (up to 480px)
 @media (max-width: 480px) {
   .participate {
     padding: 2rem 1rem;

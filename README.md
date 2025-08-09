@@ -6,5 +6,10 @@ This is a responsive landing page for a dating app with registration functionali
 
 1. Clone the repository
 2. Install dependencies:
-   ```bash
+   ```
    npm install
+   ```
+3. start project
+   ```
+   npm run start
+   ```
