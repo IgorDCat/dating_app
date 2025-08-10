@@ -12,7 +12,6 @@
 .participate {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 4rem 2rem;
   flex-wrap: wrap;
   gap: 3rem;
@@ -34,9 +33,9 @@
     .top         { top: 0; left: 60%; transform: translateX(-50%); width: 280px; height: 280px }
     .top-right   { top: 35%; right: 3%; }
     .bottom-right{ bottom: 12%; right: 15%; }
-    .bottom      { bottom: 5%; left: 40%; transform: translateX(-50%); width: 206px; height: 206px;
+    .bottom      { bottom: 5%; left: 42%; transform: translateX(-50%); width: 206px; height: 206px;
       z-index: 6; }
-    .bottom-left { bottom: 25%; left: 0; width: 230px; height: 230px }
+    .bottom-left { bottom: 27%; left: -2%; width: 230px; height: 230px }
 
     .heart {
       position: absolute;
@@ -71,7 +70,7 @@
       background: $gradient-text;
       background-clip: text;
       color: transparent;
-      line-height: 1.2;
+      line-height: 1;
       letter-spacing: -0.1rem;
     }
 
@@ -110,7 +109,7 @@
   display: inline-block;
   background: $gradient-btn;
   color: #fff;
-  padding: 1.6rem 6rem;
+  padding: 1.6rem 9rem;
   border: none;
   border-radius: 8px;
   font-weight: bold;
